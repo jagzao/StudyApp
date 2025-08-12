@@ -1,0 +1,181 @@
+# OSX
+.DS_Store
+
+# Xcode
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android
+*.apk
+*.aab
+.gradle
+local.properties
+*.iml
+.idea
+.gradle
+local.properties
+android/app/release/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Expo
+.expo/
+dist/
+web-build/
+.expo-shared/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Bundle artifacts
+*.jsbundle
+
+# CocoaPods
+ios/Pods/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# IDE files
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+Thumbs.db
+
+# Debug files
+*.log
+logs/
+*.tgz
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache (https://parceljs.org/)
+.parcel-cache/
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# Temporary folders
+tmp/
+temp/
+
+# App-specific ignores
+*.sqlite
+*.db
+uploads/
+backups/
+
+# Sensitive data
+service-account-key.json
+firebase-adminsdk.json
+credentials.json
+secrets/
+
+# Build artifacts
+android/app/build/
+ios/build/
+
+# Testing
+coverage/
+*.coverage
+.nyc_output
+
+# Webpack
+webpack-stats.json
+build-stats.json
+
+# TypeScript
+*.tsbuildinfo
+
+# Local development files
+.env.development
+.env.staging
+.env.production
+
+# Backup files
+*.backup
+*.bak
+
+# Apple certificates and profiles
+*.p12
+*.cer
+*.mobileprovision
+*.provisionprofile
+
+# Android keystore
+*.keystore
+*.jks
+
+# React Native
+.expo/
+.expo-shared/
+
+# EAS
+.easignore
